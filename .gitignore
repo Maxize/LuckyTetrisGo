@@ -1,28 +1,10 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+bin/*
+cocos2d/*
+proj.ios_mac/*
+proj.linux/*
+proj.win32/*
+proj.wp8-xaml/*
+proj.android/*
+!proj.android/jni
+proj.android/jni/*
+!proj.android/jni/Android.mk
