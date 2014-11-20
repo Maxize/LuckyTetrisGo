@@ -19,7 +19,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
         glview = GLView::create("Lucky Tetris Go");
         director->setOpenGLView(glview);
     }
-	glview->setDesignResolutionSize(1280, 768, ResolutionPolicy::EXACT_FIT);
+	glview->setDesignResolutionSize(768, 1280, ResolutionPolicy::SHOW_ALL);
 
     // turn on display FPS
     director->setDisplayStats(true);
